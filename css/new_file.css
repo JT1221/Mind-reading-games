@@ -1,0 +1,61 @@
+
+.container {
+	text-align: center;
+}
+.left {
+	display: inline-block;
+	width: 300px;
+	 vertical-align: top;
+}
+.right{
+	display: inline-block;
+	width: 500px;
+	top: 0;
+}
+#divRound {
+	width: 300px;
+	height:300px;
+	background: url(../img/bg.gif);
+	position: relative;
+	/*设置圆盘的旋转*/
+	transition: 5s
+}
+#imgCenter{
+	width: 156px;
+	height: 156px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	bottom: 0;
+	z-index: 2;
+	cursor: pointer;
+}
+.result{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	bottom: 0;
+}
+.item{
+	margin: 5px 0;
+}
+.item img{
+	width: 16px;
+	height: 16px;
+}
+.item span{
+	vertical-align: 2px;
+    margin-right: 5px;
+}
+.table{
+	/*设置网格*/
+	display: grid;
+	/*设置每一列的尺寸*/
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
